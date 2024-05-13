@@ -72,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715604383031</updated>
       <workItem from="1715604384201" duration="871000" />
-      <workItem from="1715605259181" duration="618000" />
+      <workItem from="1715605259181" duration="919000" />
     </task>
     <task id="LOCAL-00001" summary="fix: consultation 수정">
       <option name="closed" value="true" />
@@ -100,5 +100,17 @@
     <MESSAGE value="fix: consultation 수정" />
     <MESSAGE value="fix: event 수정" />
     <option name="LAST_COMMIT_MESSAGE" value="fix: event 수정" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/release.config.js</url>
+          <line>15</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
