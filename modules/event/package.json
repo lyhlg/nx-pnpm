@@ -7,6 +7,10 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyhlg/pnpm-semantic-release.git"
+  },
   "devDependencies": {
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
