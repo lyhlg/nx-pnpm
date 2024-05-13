@@ -1,7 +1,7 @@
 /**
  * @type {import('semantic-release').GlobalConfig}
  */
-module.exports = {
+const config = {
   branches: ["main"],
   extends: 'semantic-release-monorepo',
   plugins: [
@@ -69,3 +69,5 @@ module.exports = {
   // ]
   // preset: 'conventionalcommits',
 };
+
+module.exports = config
