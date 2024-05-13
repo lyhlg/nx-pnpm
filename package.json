@@ -1,5 +1,6 @@
 {
   "name": "pnpm-turbo-semantic-release",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "turbo build",
@@ -8,9 +9,14 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "semantic-release": "semantic-release -e semantic-release-monorepo"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyhlg/pnpm-semantic-release.git"
+  },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^12.0.1",
     "conventional-changelog-conventionalcommits": "^8.0.0",
     "prettier": "^3.2.5",
     "semantic-release": "^23.1.1",
