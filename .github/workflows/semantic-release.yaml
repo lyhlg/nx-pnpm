@@ -32,11 +32,11 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.HP_GITHUB_TOKEN }}
       - name: Install dependencies
-        run: npm clean-install
+        run: pnpm install --shamefully-hoist
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
-        run: npm audit signatures
+        run: pnpm audit signatures
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release
+        run: pnpm semantic-release
